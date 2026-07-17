@@ -15,3 +15,67 @@ find product
 find quotient
 accept three numbers instead of two
 find average
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Find difference
+#include <stdio.h>
+int main()
+{
+    int a,b,sum;
+    printf("Enter two number:");
+    scanf("%d%d",&a,&b);
+    sum = a-b;
+    printf("sum = %d",sum);
+    return 0;
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Find produuct
+#include <stdio.h>
+int main()
+{
+    int a,b,sum;
+    printf("Enter two number:");
+    scanf("%d%d",&a,&b);
+    sum = a*b;
+    printf("sum = %d",sum);
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Find quoitent
+#include <stdio.h>
+int main()
+{
+    int a,b,sum;
+    printf("Enter two number:");
+    scanf("%d%d",&a,&b);
+    sum = a/b;
+    printf("sum = %d",sum);
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//accept three number instead of two
+#include <stdio.h>
+int main()
+{
+    int a,b,c,sum;
+    printf("Enter three number:");
+    scanf("%d%d",&a,&b,&c);
+    sum = a+b+c;
+    printf("sum = %d",sum);
+    return 0;
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//find average
+#include <stdio.h>
+int main()
+{
+    int a,b,sum;
+    printf("Enter two number:");
+    scanf("%d%d",&a,&b);
+    sum = (a+b)/2;
+    printf("sum = %d",sum);
+    return 0;
+}
+///////////////////////////////////// END////////////////////////////////////////////////////////
+
+
+
