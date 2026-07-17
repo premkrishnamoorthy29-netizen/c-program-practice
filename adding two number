@@ -8,3 +8,10 @@ int main()
     printf("sum = %d",sum);
     return 0;
 }
+
+modification 
+find diffference
+find product
+find quotient
+accept three numbers instead of two
+find average
